@@ -1,19 +1,35 @@
 # Shopping Cart
 
-## Clone using
-  ``
-  git clone https://github.com/mahaboob-basha-a/Shopping-cart.git
-  ``
-## Install dependencies using the command in the terminal
-``
+## Clone the Repository
+
+```bash
+git clone https://github.com/mahaboob-basha-a/Shopping-cart.git
+```
+
+## Install Dependencies & Start the Project
+
+```bash
 npm install && npm run dev
-``
-After successfull installation our project with run on
-`` 
+```
+
+Once the setup is complete, your project will be running at:
+
+```
 http://localhost:5173
-``
-1. You saw the products on the home page you can choose quantity on product and click on add to card button that product will add on cart list.
-2. You modify product quantity on cart item section also it supports remove cart item by decreasing quntity less than 1.
-3. You can follow the cart summery with details of progress and remaining purchase needed for free gift also.
-4. After successfully added cart with amount greater or equal to 1000rs. Successfully Win the free gift.
-5. Free Gift Added to cart automatically once you reach purchase amount 1000rs.
+```
+
+---
+
+## Features
+
+1. **Product Selection**  
+   Browse the products on the homepage. Select the desired quantity and click **"Add to Cart"** to include the item in your cart.
+
+2. **Cart Management**  
+   Modify item quantities directly in the cart section. Items are automatically removed if the quantity is reduced below 1.
+
+3. **Cart Summary & Gift Progress**  
+   Track your order total and view progress towards unlocking a **free gift**. The summary updates in real-time.
+
+4. **Unlock Free Gift**  
+   Once your cart total reaches **₹1000 or more**, a **free gift** will be automatically added to your cart.
